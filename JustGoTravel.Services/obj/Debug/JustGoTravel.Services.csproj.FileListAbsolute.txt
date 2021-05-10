@@ -1,0 +1,16 @@
+C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Services\bin\Debug\JustGoTravel.Services.dll.config
+C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Services\bin\Debug\JustGoTravel.Services.dll
+C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Services\bin\Debug\JustGoTravel.Services.pdb
+C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Services\bin\Debug\EntityFramework.dll
+C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Services\bin\Debug\EntityFramework.xml
+C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Services\obj\Debug\JustGoTravel.Services.csprojAssemblyReference.cache
+C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Services\obj\Debug\JustGoTravel.Services.csproj.CoreCompileInputs.cache
+C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Services\obj\Debug\JustGoTravel.Services.csproj.CopyComplete
+C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Services\obj\Debug\JustGoTravel.Services.dll
+C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Services\obj\Debug\JustGoTravel.Services.pdb
