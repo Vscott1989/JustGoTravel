@@ -1,4 +1,6 @@
 ﻿using System.Data.Entity;
+using System.Data.Entity.ModelConfiguration;
+using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
@@ -28,6 +30,40 @@ namespace JustGoTravel.Data
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
+        }
+
+        public DbSet<VacationPack> VacationPacks { get; set; }
+        public DbSet<Rating> Ratings { get; set; }
+        public DbSet<Agent> Agents { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder
+                .Conventions
+                .Remove<PluralizingTableNameConvention>();
+
+            modelBuilder
+                .Configurations
+                .Add(new IdentiyUserLoginConfiguration())
+                .Add(new IdntityUserRoleConfiguraion());
+        }
+
+
+    }
+
+    public class IdentiyUserLoginConfiguration : EntityTypeConfiguration<IdentityUserLogin>
+    {
+        public IdentiyUserLoginConfiguration()
+        {
+            HasKey(iul => iul.UserId);
+        }
+    }
+
+    public class IdntityUserRoleConfiguraion : EntityTypeConfiguration<IdentityUserRole>
+    {
+        public IdntityUserRoleConfiguraion()
+        {
+            HasKey(iur => iur.UserId);
         }
     }
 }
