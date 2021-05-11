@@ -14,6 +14,7 @@ namespace JustGoTravel.Data
         public int ID { get; set; }
 
         [Required]
+        [Display (Name = "Vacation Package Name")]
         public string Name { get; set; }
 
         [Required]
@@ -23,12 +24,15 @@ namespace JustGoTravel.Data
         public double TotalCost { get; set; }
         
         [Required]
+        [Display (Name ="City & Contry")]
         public string Location { get; set; }
 
-        [Required]
+        
+        [Display(Name="Comment")]
         public string Description { get; set; }
 
         [Required]
+        [Display(Name = "What was Included in package?")]
         public string Included { get; set; }
         public DateTimeOffset TimeOfPublication { get; set; }
         public Guid AuthorId { get; set; }

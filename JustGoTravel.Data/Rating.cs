@@ -12,7 +12,7 @@ namespace JustGoTravel.Data
         [Key]
         public int ID { get; set; }
 
-        [Required]
+        [Required, Range(0, 5, ErrorMessage ="Please choose a number betwen 0 and 5")]
         public double StarRating { get; set; }
         public Guid AuthorID { get; set; }
         public ICollection<VacationPack> VacationPacks { get; set; }
