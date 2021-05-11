@@ -56,6 +56,27 @@
   <ItemGroup>
     <Compile Include="Agent.cs" />
     <Compile Include="IdentityModels.cs" />
+    <Compile Include="Migrations\202105111558531_InitialCreate.cs" />
+    <Compile Include="Migrations\202105111558531_InitialCreate.Designer.cs">
+      <DependentUpon>202105111558531_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202105111801141_InitialMiration.cs" />
+    <Compile Include="Migrations\202105111801141_InitialMiration.Designer.cs">
+      <DependentUpon>202105111801141_InitialMiration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202105111845365_UpdatedData.cs" />
+    <Compile Include="Migrations\202105111845365_UpdatedData.Designer.cs">
+      <DependentUpon>202105111845365_UpdatedData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202105111933395_UpdatedDataForAgent.cs" />
+    <Compile Include="Migrations\202105111933395_UpdatedDataForAgent.Designer.cs">
+      <DependentUpon>202105111933395_UpdatedDataForAgent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202105111956127_UpdatedRating.cs" />
+    <Compile Include="Migrations\202105111956127_UpdatedRating.Designer.cs">
+      <DependentUpon>202105111956127_UpdatedRating.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="VacationPack.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rating.cs" />
@@ -63,6 +84,23 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202105111558531_InitialCreate.resx">
+      <DependentUpon>202105111558531_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202105111801141_InitialMiration.resx">
+      <DependentUpon>202105111801141_InitialMiration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202105111845365_UpdatedData.resx">
+      <DependentUpon>202105111845365_UpdatedData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202105111933395_UpdatedDataForAgent.resx">
+      <DependentUpon>202105111933395_UpdatedDataForAgent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202105111956127_UpdatedRating.resx">
+      <DependentUpon>202105111956127_UpdatedRating.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

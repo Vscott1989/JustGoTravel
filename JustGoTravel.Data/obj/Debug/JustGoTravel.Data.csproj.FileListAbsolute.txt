@@ -14,3 +14,9 @@ C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Data\obj\Debug
 C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Data\obj\Debug\JustGoTravel.Data.csproj.CopyComplete
 C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Data\obj\Debug\JustGoTravel.Data.dll
 C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Data\obj\Debug\JustGoTravel.Data.pdb
+C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Data\obj\Debug\JustGoTravel.Data.Migrations.InitialCreate.resources
+C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Data\obj\Debug\JustGoTravel.Data.csproj.GenerateResource.cache
+C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Data\obj\Debug\JustGoTravel.Data.Migrations.InitialMiration.resources
+C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Data\obj\Debug\JustGoTravel.Data.Migrations.UpdatedData.resources
+C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Data\obj\Debug\JustGoTravel.Data.Migrations.UpdatedDataForAgent.resources
+C:\Users\Nessa\Desktop\JustGoTravel\JustGoTravel.MVC\JustGoTravel.Data\obj\Debug\JustGoTravel.Data.Migrations.UpdatedRating.resources

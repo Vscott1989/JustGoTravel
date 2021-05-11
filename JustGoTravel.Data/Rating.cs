@@ -16,6 +16,6 @@ namespace JustGoTravel.Data
         public double StarRating { get; set; }
 
         public Guid AuthorID { get; set; }
-        public ICollection<VacationPack> VacationPacks { get; set; }
+        public ICollection<VacationPack> VacationPacks { get; set; } = new List<VacationPack>();
     }
 }

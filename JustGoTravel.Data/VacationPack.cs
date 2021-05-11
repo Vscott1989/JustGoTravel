@@ -13,28 +13,22 @@ namespace JustGoTravel.Data
         [Key]
         public int ID { get; set; }
 
-        [Required, Display (Name = "Vacation Package Name")]
-        [StringLength(100, ErrorMessage ="Sorry you entered to many Charachers")]
-        public string Name { get; set; }
+        [Required]
+        [StringLength(100, ErrorMessage = "Sorry you entered to many Charachers")]
+        public string Title { get; set; }
 
-
-        [Required, Display(Name ="Length of Trip")]
+        [Required]
         public int TripLength { get; set; }
 
-
-        [Required, Display(Name ="Total Cost")]
+        [Required]
         public double TotalCost { get; set; }
-
         
-        [Required, Display (Name ="City & Contry")]
+        [Required]
         public string Location { get; set; }
-
         
-        [Display(Name="Comment")]
         public string Description { get; set; }
 
-
-        [Required, Display(Name = "What was Included in package?")]
+        [Required]
         public string Included { get; set; }
 
         public DateTimeOffset TimeOfPublication { get; set; }
