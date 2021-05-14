@@ -16,5 +16,21 @@ namespace JustGoTravel.MVC.Controllers
             var model = new VacationPackListItem[0];
             return View(model);
         }
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        //GET
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(VacationPackCreate model)
+        {
+            if (ModelState.IsValid)
+            {
+
+            }
+            return View(model);
+        }
     }
 }

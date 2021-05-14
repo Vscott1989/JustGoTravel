@@ -240,6 +240,9 @@
     <Content Include="Views\VacationPack\Index.cshtml" />
     <Content Include="Views\Agent\Index.cshtml" />
     <Content Include="Views\Rating\Index.cshtml" />
+    <Content Include="Views\Agent\Create.cshtml" />
+    <Content Include="Views\VacationPack\Create.cshtml" />
+    <Content Include="Views\Rating\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

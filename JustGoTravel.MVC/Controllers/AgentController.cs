@@ -16,5 +16,21 @@ namespace JustGoTravel.MVC.Controllers
             var model = new AgentListItem[0];
             return View(model);
         }
+        //GET
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(AgentCreate model)
+        {
+            if (ModelState.IsValid)
+            {
+
+            }
+            return View(model);
+        }
     }
 }

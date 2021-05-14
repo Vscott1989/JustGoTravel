@@ -54,9 +54,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Agent\AgentCreate.cs" />
     <Compile Include="Agent\AgentListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rating\RatingCreate.cs" />
     <Compile Include="Rating\RatingListItem.cs" />
+    <Compile Include="VacationPack\VacationPackCreate.cs" />
     <Compile Include="VacationPack\VacationPackListItem.cs" />
   </ItemGroup>
   <ItemGroup>
