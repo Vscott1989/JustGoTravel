@@ -54,11 +54,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgentService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RatingService.cs" />
+    <Compile Include="VacationPackService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JustGoTravel.Data\JustGoTravel.Data.csproj">
+      <Project>{c6255781-8e96-43b2-90b6-cdf9cc70df28}</Project>
+      <Name>JustGoTravel.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JustGoTravel.Models\JustGoTravel.Models.csproj">
+      <Project>{d3d4454d-5a77-4053-a1b1-953ce4cda8cd}</Project>
+      <Name>JustGoTravel.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
